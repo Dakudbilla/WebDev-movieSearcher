@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-
+import api_key from "./config/keys";
 import axios from "axios";
 import HomPage from "./Pages/HomPage";
 import MoviePage from "./Pages/MoviePage";
 
-const key = "da061aea68de1ab70547833e12285d32";
+const key = api_key.moviedb_API_key;
 const baseUrlWithKey = `https://api.themoviedb.org/3/search/movie?api_key=${key}`;
 
 class App extends Component {

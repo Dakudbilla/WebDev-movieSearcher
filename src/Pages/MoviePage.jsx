@@ -2,12 +2,12 @@ import React, { Component, useState, useEffect } from "react";
 import axios from "axios";
 import MoviePageNavBar from "../components/MoviePageComponents/MoviePageNavBar";
 import MovieCast from "../components/MoviePageComponents/MovieCast";
-
+import api_key from "../config/keys";
 import { usePalette } from "react-palette";
 import Search from "../components/search";
 import MovieDetails from "../components/MoviePageComponents/MovieDetails";
 
-const key = "da061aea68de1ab70547833e12285d32";
+const key = api_key.moviedb_API_key;
 const baseUrl = `https://api.themoviedb.org/3/movie/`;
 // const MoviePage = ()=> {
 //   state = {
