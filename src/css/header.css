@@ -1,0 +1,12 @@
+.header-container {
+  height: 100vh;
+  background-image: url(../img/background3.jpg),
+    radial-gradient(
+      circle at 20% 50%,
+      rgba(27.45%, 23.92%, 24.31%, 0.98) 0%,
+      rgba(32.55%, 32.55%, 32.55%, 0.88) 100%
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}

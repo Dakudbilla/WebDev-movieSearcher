@@ -1,0 +1,12 @@
+.content {
+  overflow: hidden;
+  line-height: 1.2em;
+  height: 3.6em;
+}
+.content.collapsed {
+  overflow: hidden;
+}
+.content.expanded {
+  overflow: visible;
+  height: auto;
+}
