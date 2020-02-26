@@ -119,8 +119,14 @@ const MoviePage = props => {
           <MovieCast cast={movie.credits.cast} />
         </div>
       ) : (
-        <div className="spinner-grow align-items-center" role="status">
-          <span className="sr-only ">Loading...</span>
+        <div class="d-flex justify-content-center mt-4rem">
+          <div
+            class="spinner-border"
+            role="status"
+            style={{ width: "20rem", height: "20em" }}
+          >
+            <span class="sr-only">Loading...</span>
+          </div>
         </div>
       )}
     </div>

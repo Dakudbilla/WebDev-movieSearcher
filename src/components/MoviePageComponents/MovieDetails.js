@@ -10,7 +10,7 @@ class MovieDetails extends Component {
         style={{ position: "absolute", height: "20em" }}
       >
         <div className="row">
-          <div className="col-4 ">
+          <div className="col-4  ">
             <img
               src={`${ImageBaseUrl}${movie.poster_path}`}
               className="shadow-lg mt-5"
@@ -18,7 +18,7 @@ class MovieDetails extends Component {
               style={{ height: "40em" }}
             />
           </div>
-          <div className="col-4 mt-5">
+          <div className="col-lg-4 col-md-6 col-sm-12 mt-5 ">
             <div className="h1 mb-3">{movie.title}</div>
             User Rating
             <div class="progress mb-3">
@@ -36,7 +36,7 @@ class MovieDetails extends Component {
             <h2>Overview</h2>
             <div>{movie.overview}</div>
           </div>
-          <div className="col-4 mt-5 font-weight-bold">
+          <div className="col-4  mt-5 font-weight-bold ">
             <div>
               Budget<div className="text-warning">${movie.budget}</div>
             </div>
